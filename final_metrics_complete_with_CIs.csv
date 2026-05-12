@@ -1,0 +1,13 @@
+Model,Setup,Accuracy_CI,Precision,Recall,Specificity,F1-Score,AUC,Brier Score
+Naive Bayes,Cross-Continent,0.677 (0.63-0.72),0.833,0.073,0.992,0.134,0.755,0.281
+Naive Bayes,Local,0.705 (0.66-0.75),0.607,0.394,0.867,0.478,0.755,0.190
+Logistic Regression,Cross-Continent,0.657 (0.61-0.70),0.000,0.000,1.000,0.000,0.742,0.271
+Logistic Regression,Local,0.705 (0.66-0.74),0.630,0.336,0.897,0.438,0.747,0.192
+AdaBoost,Cross-Continent,0.657 (0.61-0.70),0.000,0.000,1.000,0.000,0.756,0.208
+AdaBoost,Local,0.715 (0.67-0.76),0.591,0.547,0.802,0.568,0.754,0.196
+Random Forest,Cross-Continent,0.657 (0.61-0.70),0.000,0.000,1.000,0.000,0.744,0.269
+Random Forest,Local,0.733 (0.69-0.78),0.615,0.584,0.810,0.599,0.820,0.164
+Decision Tree,Cross-Continent,0.662 (0.61-0.71),0.750,0.022,0.996,0.043,0.679,0.275
+Decision Tree,Local,0.728 (0.68-0.77),0.597,0.628,0.779,0.612,0.779,0.175
+Gradient Boosting,Cross-Continent,0.660 (0.61-0.71),0.667,0.015,0.996,0.029,0.740,0.276
+Gradient Boosting,Local,0.770 (0.73-0.81),0.680,0.620,0.848,0.649,0.854,0.147
